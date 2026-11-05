@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+    margin: 30px;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.izquierda {
+    width: 35%;
+    background-color: #263c5a;
+    color: white;
+    padding: 20px;
+}
+
+.derecha {
+    width: 65%;
+    padding: 25px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.izquierda h2 {
+    color: #a9c9f5;
+    border-bottom: 1px solid white;
+}
+
+.derecha h2 {
+    color: #263c5a;
+    border-bottom: 2px solid #263c5a;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
